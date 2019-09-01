@@ -1,0 +1,35 @@
+CITY = 'TaxiBJ'
+TIMESTEP = 6
+trainRatio = 0.8  # train/test
+SPLIT = 0.2  # train/val
+MAX_VALUE = 1292.0
+freq = '30min'
+INTERVAL = 30
+HEIGHT = 32
+WIDTH = 32
+DAYTIMESTEP = int(24 * 60 / INTERVAL)
+DATACHANNEL = 2
+LR = 0.0001
+BATCHSIZE = 1024  # all:(T-TIMESTEP)*32*32, should be a divisor
+EPOCH = 200
+LOSS = 'mse'
+OPTIMIZER = 'adam'
+
+window_size = 9
+short_term_lstm_seq_len = TIMESTEP
+att_lstm_num = 3
+long_term_lstm_seq_len = 3
+hist_feature_daynum = 7
+last_feature_num = 48
+nbhd_size = 2  # for lstm features
+cnn_flat_size = 128
+cnn_filter = 32
+empty_time = (hist_feature_daynum + att_lstm_num) * DAYTIMESTEP + long_term_lstm_seq_len
+feature_vec_len = ((2 * nbhd_size + 1) * (2 * nbhd_size + 1) + last_feature_num + hist_feature_daynum) * DATACHANNEL
+
+model_name = 'flowio'
+dataPath = '../../{}/'.format(CITY)
+flow_path_lst = [dataPath + 'TaxiBJ%i.npy' % x for x in range(13, 17)]
+save_path = dataPath + 'DMVST_flow/'
+local_flow_in_lst_path = [save_path + 'flowioK_{}_{}_{}min_local_in.npy'.format(CITY, x, INTERVAL) for x in range(13, 17)]
+local_flow_out_lst_path = [save_path + 'flowioK_{}_{}_{}min_local_out.npy'.format(CITY, x, INTERVAL) for x in range(13, 17)]
