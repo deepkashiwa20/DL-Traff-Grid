@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/7/23 17:18
-@Author  : Zekun Cai
-@File    : preddensity_DSTN+.py
-@Software: PyCharm
-'''
 import datetime
 import sys
 import shutil

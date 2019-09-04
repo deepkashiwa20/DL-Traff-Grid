@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/7/23 17:20
-@Author  : Zekun Cai
-@File    : Param_DSTN.py
-@Software: PyCharm
-'''
 STARTDATE = '20170401'
 ENDDATE = '20170709'
 CITY = 'tokyo'

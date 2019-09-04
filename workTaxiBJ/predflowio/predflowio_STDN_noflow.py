@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/7/15 18:21
-@Author  : Zekun Cai
-@File    : preddensity_STDN.py
-@Software: PyCharm
-'''
 import pandas as pd
 import datetime
 import sys

@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/5/19 23:43
-@Author  : Zekun Cai
-@File    : preddensity_DMVST.py
-@Software: PyCharm
-'''
-
 import pandas as pd
 import datetime
 import sys

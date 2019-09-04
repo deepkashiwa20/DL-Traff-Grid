@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/5/22 19:07
-@Author  : Zekun Cai
-@File    : Param_DMVST.py.py
-@Software: PyCharm
-'''
 #################################################################
 CITY = 'tokyo'
 START, END = '20170401', '20170709'

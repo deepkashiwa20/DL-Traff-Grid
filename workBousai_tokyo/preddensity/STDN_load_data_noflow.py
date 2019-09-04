@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/7/15 22:23
-@Author  : Zekun Cai
-@File    : STDN_load_data.py
-@Software: PyCharm
-'''
 import numpy as np
 from Param_STDN import *
 

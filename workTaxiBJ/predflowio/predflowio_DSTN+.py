@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-@Time    : 2019/7/23 23:53
-@Author  : Zekun Cai
-@File    : predflowio_DSTN+.py
-@Software: PyCharm
-'''
 import datetime
 import sys
 import shutil
