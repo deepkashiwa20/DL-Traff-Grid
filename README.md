@@ -1,1 +1,1 @@
-VLUC: A Benchmark for Video-Like Urban Computing on Citywide Crowd and Traffic Prediction
+DeepCrowd: A Deep Model for Large-Scale Citywide Crowd Density and Flow Prediction
