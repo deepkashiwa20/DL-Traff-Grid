@@ -8,3 +8,9 @@ Working environment and major dependencies:
 * pandas (>= 0.18.0)
 * TensorFlow/tensorflow-gpu (= 1.1x.0)
 * Keras (>= 2.0.8)
+
+## Datasets
+* TaxiBJ
+* BikeNYC-I
+* BikeNYC-II
+* TaxiNYC
