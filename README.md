@@ -14,3 +14,12 @@ Working environment and major dependencies:
 * BikeNYC-I
 * BikeNYC-II
 * TaxiNYC
+
+## Models
+* CNN
+* ConvLSTM
+* STResNet
+* PCRN
+* DMVST-Net
+* DeepSTN+
+* STDN
