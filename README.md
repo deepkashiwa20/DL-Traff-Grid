@@ -6,19 +6,18 @@
 * The url of Graph-Based work is : (https://github.com/deepkashiwa20/DL-Traff-Graph)
 
 ## Cite
-@inproceedings{10.1145/3459637.3482013,
-author = {Macdonald, Craig and Tonellotto, Nicola and MacAvaney, Sean and Ounis, Iadh},
-title = {PyTerrier: Declarative Experimentation in Python from BM25 to Dense Retrieval},
+@inproceedings{10.1145/3459637.3482000,
+author = {Jiang, Renhe and Yin, Du and Wang, Zhaonan and Wang, Yizhuo and Deng, Jiewen and Liu, Hangchen and Cai, Zekun and Deng, Jinliang and Song, Xuan and Shibasaki, Ryosuke},
+title = {DL-Traff: Survey and Benchmark of Deep Learning Models for Urban Traffic Prediction},
 year = {2021},
 isbn = {9781450384469},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3459637.3482013},
-doi = {10.1145/3459637.3482013},
-booktitle = {Proceedings of the 30th ACM International Conference on Information & Knowledge Management},
-pages = {4526–4533},
-numpages = {8},
-keywords = {neural ranking, experimentation, dense retrieval},
+url = {https://doi.org/10.1145/3459637.3482000},
+doi = {10.1145/3459637.3482000},
+booktitle = {Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},
+pages = {4515–4525},
+numpages = {11},
 location = {Virtual Event, Queensland, Australia},
 series = {CIKM '21}
 }
