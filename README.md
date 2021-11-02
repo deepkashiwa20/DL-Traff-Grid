@@ -5,6 +5,38 @@
 * The preprint version has been uploaded to arXiv. https://arxiv.org/pdf/2108.09091.pdf
 * The url of Graph-Based work is : (https://github.com/deepkashiwa20/DL-Traff-Graph)
 
+## Cite
+@inproceedings{10.1145/3459637.3482013,
+author = {Macdonald, Craig and Tonellotto, Nicola and MacAvaney, Sean and Ounis, Iadh},
+title = {PyTerrier: Declarative Experimentation in Python from BM25 to Dense Retrieval},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482013},
+doi = {10.1145/3459637.3482013},
+abstract = {PyTerrier is a Python-based retrieval framework for expressing simple and complex
+information retrieval (IR) pipelines in a declarative manner. While making use of
+the long-established Terrier IR platform for basic text indexing and retrieval, its
+salient utility comes from its expressive Python operators, which allow for individual
+IR operations to be pipelined and combined in different flexible manners as requested
+by the search application. Each operation applies a transformation upon a dataframe,
+while operators are defined with clear semantics in relational algebra. Going further,
+we have recently expanded the PyTerrier framework to include additional support for
+state-of-the-art BERT-based text re-rankers (such as EPIC) and dense retrieval implementations
+(such as ANCE and ColBERT). Transformer pipelines can be tuned and evaluated in a
+declarative manner. To increase the reusability of this framework as a resource for
+the IR community, PyTerrier provides easy access to a variety of standard benchmark
+datasets, including pre-built indices. Finally, we highlight the advantages of such
+a framework for information retrieval researchers and educators.},
+booktitle = {Proceedings of the 30th ACM International Conference on Information & Knowledge Management},
+pages = {4526–4533},
+numpages = {8},
+keywords = {neural ranking, experimentation, dense retrieval},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
+}
+
 ## Introduction
 English | [简体中文](README_zh-CN.md)
 
