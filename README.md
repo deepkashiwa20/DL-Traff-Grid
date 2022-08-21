@@ -2,8 +2,10 @@
 ## DeepTraffic-Grid: Grid-Based Deep Learning Models for Urban Traffic Prediction
 
 * Our work has been accepted by CIKM 2021 Resource Track. https://doi.org/10.1145/3459637.3482000
+* Also selected as CIKM21 Best Resource Paper Runner-Up. https://www.cikm2021.org/programme/best-paper-nominations
 * The preprint version has been uploaded to arXiv. https://arxiv.org/pdf/2108.09091.pdf
-* The url of Graph-Based work is : (https://github.com/deepkashiwa20/DL-Traff-Graph)
+* The url of Graph-Based work is : https://github.com/deepkashiwa20/DL-Traff-Graph
+
 
 ## Cite
 
